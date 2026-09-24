@@ -7,7 +7,7 @@ import kotlinx.coroutines.withContext
 class GeminiRepository {
     private val generativeModel = GenerativeModel(
         modelName = "gemini-pro",
-        apiKey = "MASUKKAN_API_KEY_ANDA_DISINI"
+        apiKey = AQ.Ab8RN6IuZnmMR2EFkTeI9w1Ocmhfmmp38hAxKB1BYZcy1KEBFA
     )
 
     suspend fun getResponse(prompt: String): String {
